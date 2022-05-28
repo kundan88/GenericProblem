@@ -9,6 +9,9 @@ namespace GenericProblem
         {
             FindMaxInteger maxintnum = new FindMaxInteger();
             Console.WriteLine(maxintnum.NumberMax(10, 80, 10));
+            Console.WriteLine("-------------------------");
+            FindMaxFloat maxfloatnum = new FindMaxFloat();
+            Console.WriteLine(maxfloatnum.FloatNumber(90.4f, 50.6f, 70.7f));
         }
     }
 }
